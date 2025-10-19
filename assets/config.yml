@@ -59,8 +59,8 @@ links:
     target: "_blank"
   - name: "比特彗星历史版本备份"
     icon: "fa-solid fa-clock"
-    url: "/legacy"
-    target: "_blank"
+    url: "/legacy/index.html"
+  #  target: "_blank"
   # this will link to a second homer page that will load config from additional-page.yml and keep default config values as in config.yml file
   # see url field and assets/additional-page.yml.dist used in this example:
   #- name: "another page!"
