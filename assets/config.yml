@@ -8,7 +8,7 @@ logo: "/assets/icons/bitcomet-x256.png"
 # icon: "fas fa-skull-crossbones" # Optional icon
 
 header: true
-footer: '<p>本页面由使用比特彗星的爱好者创建与比特彗星官方无关 <br> Powered by <a href="https://github.com/bastienwirtz/homer">Homer</a> &amp; <a href="https://pages.cloudflare.com/">Cloudflare Pages</a></p>' # set false if you want to hide it.
+footer: '<p>本页面由使用比特彗星的爱好者创建与比特彗星官方无关 <br> Powered by <a href="https://github.com/bastienwirtz/homer" target="_blank" >Homer</a> &amp; <a href="https://pages.cloudflare.com/"  target="_blank" >Cloudflare Pages</a></p>' # set false if you want to hide it.
 
 # Set the default layout and color scheme
 defaults:
@@ -53,14 +53,17 @@ colors:
 # Optional navbar
 # links: [] # Allows for navbar (dark mode, layout, and search) without any links
 links:
+  - name: "比特彗星历史版本备份"
+    icon: "fa-solid fa-clock"
+    url: "/legacy"
   - name: "GitHub后端"
     icon: "fab fa-github"
     url: "https://github.com/bitcomet-post-bar/bc-navigation"
     target: "_blank"
-  - name: "比特彗星历史版本备份"
-    icon: "fa-solid fa-clock"
-    url: "/legacy/index.html"
-  #  target: "_blank"
+  - name: "ie12的博客"
+    icon: "fa-solid fa-file-lines"
+    url: "https://ie12blog.36102025.xyz/"
+    target: "_blank"
   # this will link to a second homer page that will load config from additional-page.yml and keep default config values as in config.yml file
   # see url field and assets/additional-page.yml.dist used in this example:
   #- name: "another page!"
@@ -94,6 +97,11 @@ services:
         subtitle: "比特彗星官方维基（英文）"
         url: "http://wiki.bitcomet.com/"
         target: "_blank"
+      - name: "Windows版"
+        logo: "/assets/icons/windows-xp.png"
+        subtitle: "下载比特彗星Windows版（便携版）"
+        url: "https://www.bitcomet.com/cn/archive"
+        target: "_blank"
       - name: "安卓版"
         logo: "/assets/icons/android-2.svg"
         subtitle: "下载比特彗星安卓版"
@@ -104,11 +112,6 @@ services:
         subtitle: "下载比特彗星MacOS版"
         url: "https://www.bitcomet.com/cn/downloads#mac"
         target: "_blank"
-      - name: "Linux版"
-        logo: "/assets/icons/Linux.svg"
-        subtitle: "下载比特彗星Linux版"
-        url: "https://wiki-zh.bitcomet.com/linux%E7%89%88bitcomet%E5%AE%89%E8%A3%85%E6%8C%87%E5%8D%97#linux_%E7%89%88_bitcomet_%E5%AE%89%E8%A3%85%E6%8C%87%E5%8D%97"
-        target: "_blank"
       - name: "Docker版（GUI）"
         logo: "/assets/icons/docker.svg"
         subtitle: "图形界面模式的 BitComet Docker"
@@ -118,6 +121,11 @@ services:
         logo: "/assets/icons/docker.svg"
         subtitle: "WebUI界面模式的 BitComet Docker"
         url: "https://wiki-zh.bitcomet.com/linux%E7%89%88bitcomet%E5%AE%89%E8%A3%85%E6%8C%87%E5%8D%97#docker_%E9%95%9C%E5%83%8F_webui%E7%95%8C%E9%9D%A2%E6%A8%A1%E5%BC%8F"
+        target: "_blank"
+      - name: "Linux版"
+        logo: "/assets/icons/Linux.svg"
+        subtitle: "下载比特彗星Linux版"
+        url: "https://wiki-zh.bitcomet.com/linux%E7%89%88bitcomet%E5%AE%89%E8%A3%85%E6%8C%87%E5%8D%97#linux_%E7%89%88_bitcomet_%E5%AE%89%E8%A3%85%E6%8C%87%E5%8D%97"
         target: "_blank"
   - name: "教程和帮助"
     icon: "fa-solid fa-circle-question"
@@ -142,6 +150,11 @@ services:
         subtitle: ""
         url: "https://tieba.baidu.com/f?kw=%B1%C8%CC%D8%E5%E7%D0%C7"
         target: "_blank"
+      - name: "为什么国内 BT 环境如此恶劣？"
+        icon: "fa-solid fa-skull"
+        subtitle: "推荐阅读"
+        url: "https://zhuanlan.zhihu.com/p/87193566"
+        target: "_blank"
       - name: "比特彗星贴吧解锁版"
         logo: "/assets/icons/icon_tools.svg"
         subtitle: ""
@@ -163,7 +176,7 @@ services:
         url: "https://github.com/bitcomet-post-bar/BC-Client-Filter"
         target: "_blank"
   - name: "综合BT站点"
-    icon: "fa-solid fa-file"
+    icon: "fa-solid fa-download"
     items:
       - name: "Torrent Galaxy"
         logo: "/assets/icons/tgx.jpg"
