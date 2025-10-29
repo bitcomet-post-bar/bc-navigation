@@ -8,7 +8,7 @@ logo: "/assets/icons/bitcomet-x256.png"
 # icon: "fas fa-skull-crossbones" # Optional icon
 
 header: true
-footer: '<p>本页面由使用比特彗星的爱好者创建与比特彗星官方无关 <br> Powered by <a href="https://github.com/bastienwirtz/homer" target="_blank" >Homer</a> &amp; <a href="https://pages.cloudflare.com/" target="_blank" >Cloudflare Pages</a><br><a href="https://uptime.36102025.xyz/status/bt" target="_blank" >镜像资源状态监控</a> </p>' # set false if you want to hide it.
+footer: '<p>本页面由使用比特彗星的爱好者创建与比特彗星官方无关 <br> Powered by <a href="https://github.com/bastienwirtz/homer" target="_blank" >Homer</a> &amp; <a href="https://pages.cloudflare.com/" target="_blank" >Cloudflare Pages</a><br></p>' # set false if you want to hide it.
 
 # Set the default layout and color scheme
 defaults:
@@ -53,12 +53,16 @@ colors:
 # Optional navbar
 # links: [] # Allows for navbar (dark mode, layout, and search) without any links
 links:
-  - name: "比特彗星历史版本备份"
+  - name: "BC历史版本备份"
     icon: "fa-solid fa-clock"
     url: "/legacy"
   - name: "GitHub后端"
     icon: "fab fa-github"
     url: "https://github.com/bitcomet-post-bar/bc-navigation"
+    target: "_blank"
+  - name: "镜像资源状态"
+    icon: "fa-solid fa-gauge-high"
+    url: "https://uptime.36102025.xyz/status/bt"
     target: "_blank"
   - name: "ie12的博客"
     icon: "fa-solid fa-file-lines"
