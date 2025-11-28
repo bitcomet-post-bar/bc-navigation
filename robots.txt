@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://bc.36102025.xyz/sitemap.txt
