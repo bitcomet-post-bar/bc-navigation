@@ -204,7 +204,7 @@ services:
       - name: "BT之家"
         logo: "/assets/icons/bt之家.png"
         subtitle: ""
-        url: "https://www.1lou.cc/"
+        url: "https://www.1lou.me/"
         target: "_blank"
       - name: "海盗湾"
         logo: "/assets/icons/the-pirate-bay.svg"
