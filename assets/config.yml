@@ -263,7 +263,7 @@ services:
         url: "https://btcache.me/"
         target: "_blank"
       - name: "iTorrents"
-        logo: "/assets/icons/itorrents.ico"
+        logo: "/assets/icons/cube_black.png"
         subtitle: "磁力和种子文件转换"
         url: "https://itorrents.org/"
         target: "_blank"
